@@ -67,7 +67,6 @@ print "\n\t ## Legumes"
 for x in tmpIngVegetables:
     print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
 
-#print "\n\t ## Riz"
 sum = 0
 for x in tmpIngRice:
     rice = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
@@ -108,9 +107,15 @@ print "\n\t ## Surgelés"
 for x in tmpIngFrozenFood:
     print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
 
-print "\n\t ## Glucides"
+#print "\n\t ## Glucides"
+#for x in tmpIngCarbohydrates:
+#    print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
+
+sum = 0
 for x in tmpIngCarbohydrates:
-    print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
+    carbohydrates = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
+    sum += int(carbohydrates)
+print 'Pâtes : ', sum, 'g'
 
 #print "\n\t ## Oeufs"
 sum = 0
