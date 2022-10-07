@@ -7,6 +7,13 @@ import random
 import calendar
 import datetime
 from datetime import date, timedelta
+import sys 
+
+if len( sys.argv ) != 2:
+    print("\t Usage: ", sys.argv[0], "number of days, exemple : ", sys.argv[0], "3" )
+    exit();
+
+numberDays = int(sys.argv[1])
 
 tmpArray = []
 recipeArray = []
@@ -34,7 +41,7 @@ for i in data['recipe']:
 # Close json file
 f.close()
 
-for days in range(15):
+for days in range(numberDays):
     NextDay_Date = datetime.datetime.today() + datetime.timedelta(days=days)
     NextDay_Date_formatted = NextDay_Date.strftime ('%a %d %B %Y')
 

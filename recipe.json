@@ -363,7 +363,7 @@
         },
         {
             "title": "Hachis parmentier",
-            "ing_beef_meat": "",
+            "ing_beef_meat": "400",
             "ing_ham_meat": "",
             "ing_bacon_meat": "",
             "ing_chicken_meat": "",
@@ -372,12 +372,12 @@
             "ing_vegetables":"",
             "ing_cheese":"",
             "ing_fish":"",
-            "ing_frozen_food":"Hachis parmentier",
+            "ing_frozen_food":"",
             "ing_carbohydrates": "",
-            "ing_others":"",
+            "ing_others":["150g de chapelure", "20cl crème fraiche"],
             "ing_eggs": "",
             "weblink": "",
-            "recipe": "",
+            "recipe": "Faire une purée, la viande. Ajouter la chapelure, au four 180°C pendant 20/25min",
             "persons": "4"
         },
         {
