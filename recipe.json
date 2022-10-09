@@ -18,7 +18,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Riz Loc Lac",
@@ -38,7 +38,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Pâtes - Thon",
@@ -58,7 +58,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Jambon Poêlé - Frites",
@@ -78,7 +78,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Pâtes Macaroni Carbonara",
@@ -98,7 +98,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Oeufs à la coque",
@@ -118,7 +118,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Poissons panés - Riz - Haricots verts",
@@ -138,7 +138,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Croque Monsieur",
@@ -158,7 +158,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Tartiflette maison",
@@ -178,7 +178,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Rôti de boeuf - Haricots verts",
@@ -198,7 +198,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Quiche (maison)",
@@ -218,7 +218,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Lasagnes",
@@ -238,7 +238,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Spaghettis bolognaise",
@@ -258,7 +258,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Gratin de pâtes macaroni",
@@ -278,7 +278,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Omelette patates",
@@ -298,7 +298,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Omelette nature - Riz",
@@ -318,7 +318,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Salade de riz",
@@ -338,7 +338,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Pommes de terre sautées",
@@ -358,7 +358,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Quinoa - Haricots Verts",
@@ -378,7 +378,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Hachis parmentier",
@@ -398,7 +398,7 @@
             "weblink": "",
             "recipe": "Faire une purée, la viande. Ajouter la chapelure, au four 180°C pendant 20/25min",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Poêlée de penne au poulet",
@@ -418,7 +418,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Gratin de Pommes de terre / Lardons",
@@ -438,7 +438,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Gnocchis / Lardons",
@@ -458,7 +458,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Pizza Fromage maison",
@@ -478,7 +478,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Saucisses lentilles",
@@ -498,7 +498,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Pâtes Farfalle - petits pois - jambon",
@@ -518,7 +518,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Oeufs sur le plat",
@@ -538,7 +538,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Carpaccio de boeuf - Roasties",
@@ -558,7 +558,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Poulet au curry - Riz",
@@ -578,7 +578,7 @@
             "weblink": "",
             "recipe": "Plonger le riz dans de l'eau, etc ... ",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Gauffres pomme de terre",
@@ -598,7 +598,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Gauffres aux carrottes",
@@ -618,7 +618,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Hamburger maison - Nuggets - Frites",
@@ -638,7 +638,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Tomates Farcies maison - Riz",
@@ -658,7 +658,7 @@
             "weblink": "",
             "recipe": "Cuire à 200°c pendant 45 minutes et laisser refroidir 10 à 15 minutes",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Tomates Mozza - Pâtes",
@@ -678,7 +678,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         },
         {
             "title": "Oeuf cocotte - Oeuf à la coque",
@@ -718,7 +718,7 @@
             "weblink": "",
             "recipe": "",
             "persons": "4",
-            "season": "automn"
+            "season": ["winter","automn","spring","summer"]
         }
     ]
 }
