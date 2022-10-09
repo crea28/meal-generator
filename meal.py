@@ -9,12 +9,14 @@ import datetime
 from datetime import date, timedelta
 import sys 
 
+# Arguments
 if len( sys.argv ) != 2:
     print("\t Usage: ", sys.argv[0], "number of days, exemple : ", sys.argv[0], "3" )
     exit();
 
 numberDays = int(sys.argv[1])
 
+# Variables and Arrays definition
 tmpArray = []
 recipeArray = []
 tmpIngMeat = []
@@ -70,6 +72,7 @@ for days in range(numberDays):
     else :
         print NextDay_Date_formatted, ": Regime"
 
+# Print the Shopping List
 print "\n\t ## Legumes"
 for x in tmpIngVegetables:
     print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
@@ -120,7 +123,6 @@ for x in tmpIngCarbohydrates:
     sum += int(carbohydrates)
 print 'Pâtes : ', sum, 'g'
 
-#print "\n\t ## Oeufs"
 sum = 0
 for x in tmpIngEggs:
     egg = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
