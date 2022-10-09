@@ -114,10 +114,6 @@ print "\n\t ## Surgelés"
 for x in tmpIngFrozenFood:
     print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
 
-#print "\n\t ## Glucides"
-#for x in tmpIngCarbohydrates:
-#    print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
-
 sum = 0
 for x in tmpIngCarbohydrates:
     carbohydrates = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
