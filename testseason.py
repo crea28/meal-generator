@@ -31,8 +31,6 @@ else :
 
 print "Season :", seasonNow
 
-seasonNow = "summer"
-
 # Load json file
 f=open('recipe.json')
 data = json.load(f)
