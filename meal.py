@@ -30,7 +30,9 @@ tmpIngFrozenFood = []
 tmpIngCarbohydrates = []
 tmpIngOthers = []
 tmpIngEggs = []
+tmpIngGratedCheese = []
 tmpIngRice = []
+tmpIngFreshCream = []
 
 # Load json file
 f=open('recipe.json')
@@ -69,6 +71,8 @@ for days in range(numberDays):
                 if len(i['ing_carbohydrates']) != 0: tmpIngCarbohydrates.append(i['ing_carbohydrates'])
                 if len(i['ing_others']) != 0: tmpIngOthers.append(i['ing_others'])
                 if len(i['ing_eggs']) != 0: tmpIngEggs.append(i['ing_eggs'])
+                if len(i['ing_grated_cheese']) != 0: tmpIngGratedCheese.append(i['ing_grated_cheese'])
+                if len(i['ing_fresh_cream']) != 0: tmpIngFreshCream.append(i['ing_fresh_cream'])
     else :
         print NextDay_Date_formatted, ": Regime"
 
@@ -109,6 +113,12 @@ print "\n\t ## Fromage"
 for x in tmpIngCheese:
     print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
 
+sum = 0
+for x in tmpIngGratedCheese:
+    gratedCheese = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
+    sum += int(gratedCheese)
+print sum, 'sachet(s) de gruyère (75g)'
+
 print "\n\t ## Poissons"
 for x in tmpIngFish:
     print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
@@ -132,3 +142,9 @@ print 'Oeufs :', sum
 print "\n\t ## Autres"
 for x in tmpIngOthers:
     print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
+
+sum = 0
+for x in tmpIngFreshCream:
+    freshCream = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
+    sum += int(freshCream)
+print sum, 'boîte(s) de crème liquide/épaisse (25cl)'
