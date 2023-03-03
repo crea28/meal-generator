@@ -11,7 +11,7 @@ import sys
 
 # Arguments
 if len( sys.argv ) != 2:
-    print("\t Usage: ", sys.argv[0], "number of days, exemple : ", sys.argv[0], "3" )
+    print("\t Usage: ", sys.argv[0], "number of days, example : ", sys.argv[0], "3" )
     exit();
 
 numberDays = int(sys.argv[1])
