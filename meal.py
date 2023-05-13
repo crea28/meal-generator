@@ -1,150 +1,79 @@
-#!/usr/bin/python2.7
+#!/usr/bin/python3.8
 # -*- coding: utf-8 -*-
-# Carbohydrates (glucides) : potatoes, pasta, rice, legumes, pizza bases or wholegrains such as barley, buckwheat or quinoa.
 
 import json
 import random
-import calendar
+import sys
 import datetime
-from datetime import date, timedelta
-import sys 
+from datetime import date, timedelta, datetime
 
 # Arguments
-if len( sys.argv ) != 2:
+if len(sys.argv ) != 2:
     print("\t Usage: ", sys.argv[0], "number of days, example : ", sys.argv[0], "3" )
     exit();
 
-numberDays = int(sys.argv[1])
+def get_season():
+    # Get the current day of the year
+    doy = datetime.today().timetuple().tm_yday
 
-# Variables and Arrays definition
-tmpArray = []
-recipeArray = []
-tmpIngMeat = []
-tmpIngPorkMeat = []
-tmpIngChickenMeat = []
-tmpIngBeefMeat = []
-tmpIngVegetables = []
-tmpIngCheese = []
-tmpIngFish = []
-tmpIngFrozenFood = []
-tmpIngCarbohydrates = []
-tmpIngOthers = []
-tmpIngEggs = []
-tmpIngGratedCheese = []
-tmpIngRice = []
-tmpIngFreshCream = []
+    # Day of year
+    spring = range(80, 172)
+    summer = range(172, 264)
+    automn = range(264, 355)
+    # winter = everything else
 
-# Load json file
-f=open('recipe.json')
-data = json.load(f)
-
-# Get the recipe list
-for i in data['recipe']:
-    recipeArray.append(i['title'])
-
-# Close json file
-f.close()
-
-for days in range(numberDays):
-    NextDay_Date = datetime.datetime.today() + datetime.timedelta(days=days)
-    NextDay_Date_formatted = NextDay_Date.strftime ('%a %d %B %Y')
-
-    countTotal = str(len(recipeArray))
-    if countTotal != "0":
-        rand=random.choice(recipeArray)
-        tmpArray.append(rand)
-        recipeArray.remove(rand)
-        print NextDay_Date_formatted, ":", rand
-
-        # Get all the ingredients
-        for i in data['recipe']:
-            if rand == i['title']:
-                if len(i['ing_meat']) != 0: tmpIngMeat.append(i['ing_meat'])
-                if len(i['ing_beef_meat']) != 0: tmpIngBeefMeat.append(i['ing_beef_meat'])
-                if len(i['ing_chicken_meat']) != 0: tmpIngChickenMeat.append(i['ing_chicken_meat'])
-                if len(i['ing_ham_meat']) != 0: tmpIngPorkMeat.append(i['ing_ham_meat'])
-                if len(i['ing_rice']) != 0: tmpIngRice.append(i['ing_rice'])
-                if len(i['ing_vegetables']) != 0: tmpIngVegetables.append(i['ing_vegetables'])
-                if len(i['ing_cheese']) != 0: tmpIngCheese.append(i['ing_cheese'])
-                if len(i['ing_fish']) != 0: tmpIngFish.append(i['ing_fish'])
-                if len(i['ing_frozen_food']) != 0: tmpIngFrozenFood.append(i['ing_frozen_food'])
-                if len(i['ing_carbohydrates']) != 0: tmpIngCarbohydrates.append(i['ing_carbohydrates'])
-                if len(i['ing_others']) != 0: tmpIngOthers.append(i['ing_others'])
-                if len(i['ing_eggs']) != 0: tmpIngEggs.append(i['ing_eggs'])
-                if len(i['ing_grated_cheese']) != 0: tmpIngGratedCheese.append(i['ing_grated_cheese'])
-                if len(i['ing_fresh_cream']) != 0: tmpIngFreshCream.append(i['ing_fresh_cream'])
+    if doy in spring:
+        seasonNow = 'spring'
+    elif doy in summer:
+        seasonNow = 'summer'
+    elif doy in automn:
+        seasonNow = 'automn'
     else :
-        print NextDay_Date_formatted, ": Regime"
+        seasonNow = 'winter'
 
-# Print the Shopping List
-print "\n\t ## Legumes"
-for x in tmpIngVegetables:
-    print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
+    return seasonNow
 
-sum = 0
-for x in tmpIngRice:
-    rice = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
-    sum += int(rice)
-print 'Riz : ', sum, 'g'
+def generate_shopping_list(file_path, num_meals, fseason):
+    with open(file_path) as f:
+        data = json.load(f)
 
-print "\n\t ## Viandes"
-for x in tmpIngMeat:
-    print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
+    if fseason:
+        num_season_available_meals = [meal for meal in data["meals"] if fseason in meal["season"]]
+        num_available_meals = len(num_season_available_meals)
+    else:
+        num_season_available_meals = [meal for meal in data["meals"]]
+        num_available_meals = len(num_season_available_meals)
 
-sum = 0
-for x in tmpIngPorkMeat:
-    ham = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
-    sum += int(ham)
-print 'Jambon : ', sum, 'g'
+    if num_meals > num_available_meals:
+        print(f"{fseason} Warning: Requested {num_meals} meals, but only {num_available_meals} are available. Using all available meals.")
+        exit();
 
-sum = 0
-for x in tmpIngBeefMeat:
-    beef = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
-    sum += int(beef)
-print 'Boeuf : ', sum, 'g'
+    # Randomly select num_meals meals
+    meals = random.sample(num_season_available_meals, num_meals)
 
-sum = 0
-for x in tmpIngChickenMeat:
-    chicken = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
-    sum += int(chicken)
-print 'Poulet : ', sum, 'g'
+    shopping_list = {}
 
-print "\n\t ## Fromage"
-for x in tmpIngCheese:
-    print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
+    for meal in meals :
+        for ingredient in meal["ingredients"]:
+            name = ingredient["name"]
+            quantity = ingredient["quantity"]
+            unit = ingredient["unit"]
+            if name in shopping_list:
+                shopping_list[name]["quantity"] += quantity
+            else:
+                shopping_list[name] = {"quantity": quantity, "unit": unit}
 
-sum = 0
-for x in tmpIngGratedCheese:
-    gratedCheese = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
-    sum += int(gratedCheese)
-print sum, 'sachet(s) de gruyère (75g)'
+    return shopping_list, [meal["name"] for meal in meals]
 
-print "\n\t ## Poissons"
-for x in tmpIngFish:
-    print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
+if __name__ == "__main__":
+    file_path = "recipe.json"
+    num_meals = int(sys.argv[1])
+    fseason = get_season()
 
-print "\n\t ## Surgelés"
-for x in tmpIngFrozenFood:
-    print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
-
-sum = 0
-for x in tmpIngCarbohydrates:
-    carbohydrates = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
-    sum += int(carbohydrates)
-print 'Pâtes : ', sum, 'g'
-
-sum = 0
-for x in tmpIngEggs:
-    egg = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
-    sum += int(egg)
-print 'Oeufs :', sum
-
-print "\n\t ## Autres"
-for x in tmpIngOthers:
-    print json.dumps(x, default=str).decode('unicode-escape')[1:-1]
-
-sum = 0
-for x in tmpIngFreshCream:
-    freshCream = json.dumps(x, default=str).decode('unicode-escape')[1:-1]
-    sum += int(freshCream)
-print sum, 'boîte(s) de crème liquide/épaisse (25cl)'
+    shopping_list, meals = generate_shopping_list(file_path, num_meals, fseason)
+    print(f"Generated {len(meals)} random meals:")
+    for meal in sorted(meals):
+        print("- " + meal)
+    print("\nShopping List:")
+    for item in sorted(shopping_list):
+        print(f"{item}: {shopping_list[item]['quantity']} {shopping_list[item]['unit']}")

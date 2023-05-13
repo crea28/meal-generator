@@ -1,1016 +1,901 @@
 {
-    "recipe": [
+    "meals": [
         {
-            "title": "Pâtes - Jambon",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "150",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables": "",
-            "ing_cheese": "",
-            "ing_fish": "",
-            "ing_frozen_food": "",
-            "ing_carbohydrates": "400",
-            "ing_others": "",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
+            "name": "Pâtes - Jambon",
+            "ingredients": [
+                {
+                    "name": "Dés de jambon",
+                    "quantity": 150,
+                    "unit": "g"
+                },
+                {
+                    "name": "Pâtes",
+                    "quantity": 350,
+                    "unit": "g"
+                }                
+            ],
             "season": ["winter","automn","spring","summer"]
         },
         {
-            "title": "Riz Loc Lac",
-            "ing_beef_meat": "300",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "400",
-            "ing_vegetables":["1 concombre", "2 tomates"],
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "3",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
+            "name": "Riz Loc Lac",
+            "ingredients": [
+                {
+                    "name": "Riz",
+                    "quantity": 300,
+                    "unit": "g"
+                },
+                {
+                    "name": "Boeuf à fondue",
+                    "quantity": 400,
+                    "unit": "g"
+                },
+                {
+                    "name": "Concombre",
+                    "quantity": 1,
+                    "unit": "pièce(s)"
+                },
+                {
+                    "name": "Tomates cerises",
+                    "quantity": 100,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oeuf",
+                    "quantity": 3,
+                    "unit": "pièce(s)"
+                }
+
+            ],
             "season": ["winter","automn","spring","summer"]
         },
         {
-            "title": "Pâtes - Thon",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"1 boîte de thon",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "400",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
+            "name": "Pâtes - Thon",
+            "ingredients": [
+                {
+                    "name": "Thon",
+                    "quantity": 1,
+                    "unit": "boîte(s)"
+                },
+                {
+                    "name": "Pâtes",
+                    "quantity": 350,
+                    "unit": "g"
+                }                
+            ],
             "season": ["winter","automn","spring","summer"]
         },
         {
-            "title": "Jambon Poêlé - Frites",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "4 tranches de jambon à poêler",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"Frites au four",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
+            "name": "Poêlée Jambon - Frites",
+            "ingredients": [
+                {
+                    "name": "Jambon à pôeler",
+                    "quantity": 4,
+                    "unit": "tranche(s)"
+                },
+                {
+                    "name": "Frites au four",
+                    "quantity": 0.5,
+                    "unit": "sachet(s)"
+                }                
+            ],
             "season": ["winter","automn","spring","summer"]
         },
         {
-            "title": "Pâtes Macaroni Carbonara",
-            "ing_beef_meat": "",
-            "ing_meat": "",
-            "ing_ham_meat": "100",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "400",
-            "ing_others":"",
-            "ing_eggs": "2",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "1",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
+            "name": "Pâtes carbonara",
+            "ingredients": [
+                {
+                    "name": "Lardons",
+                    "quantity": 150,
+                    "unit": "g"
+                },
+                {
+                    "name": "Pâtes Spaghettis",
+                    "quantity": 350,
+                    "unit": "g"
+                },
+                {
+                    "name": "Crême liquide",
+                    "quantity": 1,
+                    "unit": "boîte(s) de 25 cl"
+                },
+                {
+                    "name": "Oeuf",
+                    "quantity": 2,
+                    "unit": "pièce(s)"
+                }
+            ],
             "season": ["winter","automn","spring","summer"]
         },
         {
-            "title": "Oeufs à la coque",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "4",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
+            "name": "Oeufs à la coque",
+            "ingredients": [
+                {
+                    "name": "Oeuf",
+                    "quantity": 4,
+                    "unit": "pièce(s)"
+                }
+            ],
             "season": ["winter","automn","spring","summer"]
         },
         {
-            "title": "Poissons panés - Riz - Haricots verts",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "400",
-            "ing_vegetables":"Haricots verts",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"Poissons panés",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
+            "name": "Poisons Panés / Riz / Haricots Verts",
+            "ingredients": [
+                {
+                    "name": "Poissons Panés",
+                    "quantity": 1,
+                    "unit": "boîte(s)"
+                },
+                {
+                    "name": "Riz",
+                    "quantity": 350,
+                    "unit": "g"
+                },
+                {
+                    "name": "Haricots verts",
+                    "quantity": 200,
+                    "unit": "g"
+                }
+            ],
             "season": ["winter","automn","spring","summer"]
         },
         {
-            "title": "Croque Monsieur",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "6 tranches de jambon",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"Leerdammer",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"Pain de mie",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
+            "name": "Croque Monsieur",
+            "ingredients": [
+                {
+                    "name": "Pain de mie",
+                    "quantity": 1,
+                    "unit": "paquet(s)"
+                },
+                {
+                    "name": "Leerdamer",
+                    "quantity": 1,
+                    "unit": "paquet(s)"
+                },
+                {
+                    "name": "Tranches de jambon",
+                    "quantity": 4,
+                    "unit": "tranche(s)"
+                }
+            ],
             "season": ["winter","automn","spring","summer"]
         },
         {
-            "title": "Tartiflette maison",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "100g de lardons",
-            "ing_rice": "",
-            "ing_vegetables":"4 grosses pommes de terre",
-            "ing_cheese":"1 reblochon",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "1",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Rôti de boeuf - Haricots verts",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "400g de rôti de boeuf",
-            "ing_rice": "",
-            "ing_vegetables":"Haricots verts",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Quiche (maison)",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "200",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others": ["1 pâte brisée"],
-            "ing_eggs": "4",
-            "ing_grated_cheese": "1",
-            "ing_fresh_cream": "1",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Lasagnes",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"Lasagnes",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Spaghettis bolognaise",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates":"400",
-            "ing_others":"Sauce bolognaise",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Gratin de pâtes macaroni",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates":"300",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "1",
-            "ing_fresh_cream": "1",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Omelette patates",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"2 pommes de terre",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":["30g de beurre"],
-            "ing_eggs": "6",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "1",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Omelette nature - Riz",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "300",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "4",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Salade de riz",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "200",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "400",
-            "ing_vegetables": ["Maïs","Tomates"],
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "4",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Pommes de terre sautées",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables": "",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"Pommes de terre",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Quinoa - Haricots Verts",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":["Quinoa","Haricots Verts"],
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Hachis parmentier",
-            "ing_beef_meat": "400",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"Pommes de terre",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":["150g de chapelure"],
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "1",
-            "weblink": "",
-            "recipe": "Faire une purée, la viande. Ajouter la chapelure, au four 180°C pendant 20/25min",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Poêlée de penne au poulet",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "350",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "400",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "1",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Gratin de Pommes de terre / Lardons",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "Lardons",
-            "ing_rice": "",
-            "ing_vegetables":"Pommes de terre",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "1",
-            "ing_fresh_cream": "1",
-            "weblink": "www.marmiton.org/recettes/recette_gratin-de-pommes-de-terre-fondant_37453.aspx",
-            "recipe": "Four à 200°c pendant 50/55min",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Gnocchis / Lardons",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "100g de lardons",
-            "ing_rice": "",
-            "ing_vegetables": "Gnocchis à poeler",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Pizza Fromage maison",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "Tranches de jambon",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"1",
-            "ing_carbohydrates": "",
-            "ing_others":["Coulis de tomates", "Pâte à pizza"],
-            "ing_eggs": "2",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Saucisses lentilles",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "Saucisses",
-            "ing_rice": "",
-            "ing_vegetables": ["Carottes","Lentilles"],
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Pâtes Farfalle - petits pois - jambon",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "Jambon",
-            "ing_rice": "",
-            "ing_vegetables": "Petits pois",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "400",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Oeufs sur le plat",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables": "",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "4",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Carpaccio de boeuf - Roasties",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "Carpaccio de boeuf",
-            "ing_rice": "",
-            "ing_vegetables": "",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"Roasties",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Poulet au curry - Riz",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "400",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"Riz",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"Curry",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Gauffres pomme de terre",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":["400g pommes de terre"],
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":["150G de farine","90ml de lait", "huile d'olive","levure chimique"],
-            "ing_eggs": "",
-            "ing_grated_cheese": "1",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Gauffres aux carrottes",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":["400g carottes"],
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":["150G de farine","90ml de lait", "huile d'olive","levure chimique"],
-            "ing_eggs": "2",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Hamburger maison - Nuggets - Frites",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "2x steak hachés",
-            "ing_rice": "",
-            "ing_vegetables":["1 tomate","Feuille de salade","Pommes de terre à frites"],
-            "ing_cheese":"Cheddar",
-            "ing_fish":"",
-            "ing_frozen_food":["Nuggets","Frites Micro-onde"],
-            "ing_carbohydrates": "",
-            "ing_others":["2x Pain a burger"],
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Tomates Farcies maison - Riz",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "Viande hachée",
-            "ing_rice": "",
-            "ing_vegetables":["2 grosses tomates et 2 petites tomates"],
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "1",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "Cuire à 200°c pendant 45 minutes et laisser refroidir 10 à 15 minutes",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Tomates Mozza - Pâtes",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":["Tomates"],
-            "ing_cheese":"Mozza",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "300",
-            "ing_others":"",
-            "ing_eggs": "",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Oeuf cocotte - Oeuf à la coque",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "1 tranche de jambon ou jambon en dé",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "4",
-            "ing_grated_cheese": "1",
-            "ing_fresh_cream": "1",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Salade Patate Thon",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":["6 pommes de terre"],
-            "ing_cheese":"",
-            "ing_fish":"1 boîte de thon",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "4",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring","summer"]
-        },
-        {
-            "title": "Hot Dog",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":["Knacki","Pain","Moutarde de Dijon"],
-            "ing_eggs": "",
-            "ing_grated_cheese": "1",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring"]
-        },
-        {
-            "title": "Friands Jambon/Fromage",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":["Pâte feuilletée rectangulaire","2 tranches de jambon"],
-            "ing_eggs": "1",
-            "ing_grated_cheese": "1",
-            "ing_fresh_cream": "1",
-            "weblink": "www.youtube.com/watch?v=GUpp8h4L4u4",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring"]
-        },
-        {
-            "title": "Friands Saucisses",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":["Pâte feuilletée rectangulaire","Saucisses knacki","Moutarde de dijon"],
-            "ing_eggs": "1",
-            "ing_grated_cheese": "1",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn","spring"]
-        },
-        {
-            "title": "Croziflette",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "100",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":["Crozets"],
-            "ing_eggs": "1",
-            "ing_grated_cheese": "1",
-            "ing_fresh_cream": "1",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
+            "name": "Tartiflette",
+            "ingredients": [
+                {
+                    "name": "Pommes de terre",
+                    "quantity": 300,
+                    "unit": "g"
+                },
+                {
+                    "name": "Lardons",
+                    "quantity": 150,
+                    "unit": "g"
+                },
+                {
+                    "name": "Crême liquide",
+                    "quantity": 1,
+                    "unit": "boîte(s) de 25 cl"
+                },
+                {
+                    "name": "Reblochon",
+                    "quantity": 1,
+                    "unit": "pièce(s)"
+                }
+            ],
             "season": ["winter","automn"]
         },
         {
-            "title": "Flammekueche",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"Flammekueche",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs": "1",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn"]
+            "name": "Rôti de boeuf - Haricots verts",
+            "ingredients": [
+                {
+                    "name": "Rôti de boeuf",
+                    "quantity": 400,
+                    "unit": "g"
+                },
+                {
+                    "name": "Haricots verts",
+                    "quantity": 200,
+                    "unit": "g"
+                }
+            ],
+            "season": ["winter","automn","spring","summer"]
         },
         {
-            "title": "Tarte à la tomate",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"4 tomates",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":["1 pâte brisée","huile d'olive"],
-            "ing_eggs": "1",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
+            "name": "Quiche",
+            "ingredients": [
+                {
+                    "name": "Lardons",
+                    "quantity": 150,
+                    "unit": "g"
+                },
+                {
+                    "name": "Pâte Brisée",
+                    "quantity": 1,
+                    "unit": "pièce(s)"
+                },
+                {
+                    "name": "Oeuf",
+                    "quantity": 3,
+                    "unit": "pièce(s)"
+                },
+                {
+                    "name": "Crême liquide",
+                    "quantity": 1,
+                    "unit": "boîte(s) de 25 cl"
+                },
+                {
+                    "name": "Lait",
+                    "quantity": 20,
+                    "unit": "cl"
+                }
+            ],
+            "season": ["winter","automn","spring","summer"]
+        },
+        {
+            "name": "Spaghettis Bolognaise",
+            "ingredients": [
+                {
+                    "name": "Pâtes Spaghettis",
+                    "quantity": 250,
+                    "unit": "g"
+                },
+                {
+                    "name": "Sauce Bolognaise",
+                    "quantity": 1,
+                    "unit": "pièce(s)"
+                }
+            ],
+            "season": ["winter","automn","spring","summer"]
+        },
+        {
+            "name": "Gratin de macaroni",
+            "ingredients": [
+                {
+                    "name": "Pâtes",
+                    "quantity": 300,
+                    "unit": "g"
+                },
+                {
+                    "name": "Gruyère",
+                    "quantity": 1,
+                    "unit": "pièce(s)"
+                },
+                {
+                    "name": "Crême liquide",
+                    "quantity": 1,
+                    "unit": "boîte(s) de 25 cl"
+                }
+            ],
+            "season": ["winter","automn","spring","summer"]
+        },
+        {
+            "name": "Tortilla espagnole",
+            "ingredients": [
+              {
+                "name": "Pommes de terre",
+                "quantity": 500,
+                "unit": "g"
+              },
+              {
+                "name": "Oeuf",
+                "quantity": 6,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Huile d'olive",
+                "quantity": 4,
+                "unit": "cuillère(s) à soupe"
+              },
+              {
+                "name": "Sel",
+                "quantity": 1,
+                "unit": "pincée(s)"
+              },
+              {
+                "name": "Poivre",
+                "quantity": 1,
+                "unit": "pincée(s)"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Omelette / Riz",
+            "ingredients": [
+              {
+                "name": "Riz",
+                "quantity": 250,
+                "unit": "g"
+              },
+              {
+                "name": "Oeuf",
+                "quantity": 4,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Lait",
+                "quantity": 10,
+                "unit": "ml"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },         
+          {
+            "name": "Salade de Riz",
+            "ingredients": [
+              {
+                "name": "Riz",
+                "quantity": 250,
+                "unit": "g"
+              },
+              {
+                "name": "Oeuf",
+                "quantity": 2,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Tomates cerises",
+                "quantity": 100,
+                "unit": "g"
+              },
+              {
+                "name": "Dés de jambon",
+                "quantity": 150,
+                "unit": "g"
+              }
+            ],
+            "season": ["spring","summer"]
+          },
+          {
+            "name": "Pommes de terre sautées",
+            "ingredients": [
+              {
+                "name": "Pommes de terre",
+                "quantity": 6,
+                "unit": "pièce(s)"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Quinoa - Haricots Verts",
+            "ingredients": [
+              {
+                "name": "Quinoa",
+                "quantity": 250,
+                "unit": "g"
+              },
+              {
+                "name": "Haricots verts",
+                "quantity": 200,
+                "unit": "g"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Hachis Parmentier",
+            "ingredients": [
+              {
+                "name": "Boeuf hâché",
+                "quantity": 250,
+                "unit": "g"
+              },
+              {
+                "name": "Pommes de terre",
+                "quantity": 200,
+                "unit": "g"
+              },
+              {
+                "name": "Chapelure",
+                "quantity": 50,
+                "unit": "g"
+              },
+              {
+                "name": "Crême liquide",
+                "quantity": 1,
+                "unit": "boîte(s) de 25 cl"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Poêlée de penne au poulet",
+            "ingredients": [
+              {
+                "name": "Poulet",
+                "quantity": 300,
+                "unit": "g"
+              },
+              {
+                "name": "Pâtes Penne",
+                "quantity": 350,
+                "unit": "g"
+              },
+              {
+                "name": "Crême liquide",
+                "quantity": 1,
+                "unit": "boîte(s) de 25 cl"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Gratin de patates",
+            "ingredients": [
+              {
+                "name": "Pommes de terre",
+                "quantity": 300,
+                "unit": "g"
+              },
+              {
+                "name": "Lardons",
+                "quantity": 150,
+                "unit": "g"
+              },
+              {
+                "name": "Gruyère",
+                "quantity": 1,
+                "unit": "sachet(s)"
+              },
+              {
+                "name": "Crême liquide",
+                "quantity": 1,
+                "unit": "boîte(s) de 25 cl"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Gnocchis et Lardons",
+            "ingredients": [
+              {
+                "name": "Gnocchis",
+                "quantity": 400,
+                "unit": "g"
+              },
+              {
+                "name": "Lardons",
+                "quantity": 150,
+                "unit": "g"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Pizza maison",
+            "ingredients": [
+              {
+                "name": "Tranches de jambon",
+                "quantity": 2,
+                "unit": "tranche(s)"
+              },
+              {
+                "name": "Pâte à pizza",
+                "quantity": 1,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Coulis de tomate",
+                "quantity": 1,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Mozarella râpée",
+                "quantity": 1,
+                "unit": "sachet(s)"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Saucisses Lentilles",
+            "ingredients": [
+              {
+                "name": "Saucisses",
+                "quantity": 3,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Lentilles",
+                "quantity": 300,
+                "unit": "g"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Pâtes Farfalle - petits pois - jambon",
+            "ingredients": [
+              {
+                "name": "Petits Pois",
+                "quantity": 1,
+                "unit": "pincée(s)"
+              },
+              {
+                "name": "Pâtes Farfalle",
+                "quantity": 300,
+                "unit": "g"
+              },
+              {
+                "name": "Dés de jambon",
+                "quantity": 150,
+                "unit": "g"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Oeufs sur le plat",
+            "ingredients": [
+              {
+                "name": "Oeuf",
+                "quantity": 1,
+                "unit": "pièce(s)"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Carpaccio de boeuf / Rösti",
+            "ingredients": [
+              {
+                "name": "Carpaccio",
+                "quantity": 1,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Rösti",
+                "quantity": 0.5,
+                "unit": "sachet(s)"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Poulet - Creme fraîche",
+            "ingredients": [
+              {
+                "name": "Poulet",
+                "quantity": 400,
+                "unit": "g"
+              },
+              {
+                "name": "Crême liquide",
+                "quantity": 1,
+                "unit": "boîte(s) de 25 cl"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Gauffres Pommes de Terre",
+            "ingredients": [
+              {
+                "name": "Pommes de terre",
+                "quantity": 300,
+                "unit": "g"
+              },
+              {
+                "name": "Oeuf",
+                "quantity": 1,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Lait",
+                "quantity": 12,
+                "unit": "cl"
+              },
+              {
+                "name": "Farine",
+                "quantity": 60,
+                "unit": "g"
+              },
+              {
+                "name": "Gruyère",
+                "quantity": 30,
+                "unit": "g"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Gauffres Carottes",
+            "ingredients": [
+              {
+                "name": "Carottes",
+                "quantity": 300,
+                "unit": "g"
+              },
+              {
+                "name": "Oeuf",
+                "quantity": 1,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Lait",
+                "quantity": 12,
+                "unit": "cl"
+              },
+              {
+                "name": "Farine",
+                "quantity": 60,
+                "unit": "g"
+              },
+              {
+                "name": "Gruyère",
+                "quantity": 30,
+                "unit": "g"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Tomates farcies - Riz",
+            "ingredients": [
+              {
+                "name": "Tomates rondes",
+                "quantity": 4,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Chair à saucisses",
+                "quantity": 300,
+                "unit": "g"
+              },
+              {
+                "name": "Riz",
+                "quantity": 300,
+                "unit": "g"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Tomates Mozza",
+            "ingredients": [
+              {
+                "name": "Tomates",
+                "quantity": 4,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Mozarella",
+                "quantity": 1,
+                "unit": "sachet(s)"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Oeufs cocotte / Oeufs à la coque",
+            "ingredients": [
+              {
+                "name": "Oeuf",
+                "quantity": 4,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Tranches de jambon",
+                "quantity": 1,
+                "unit": "tranche(s)"
+              },
+              {
+                "name": "Gruyère",
+                "quantity": 20,
+                "unit": "g"
+              },
+              {
+                "name": "Crême liquide",
+                "quantity": 1,
+                "unit": "boîte(s) de 25 cl"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Salate Patate Thon Oeuf",
+            "ingredients": [
+              {
+                "name": "Pommes de terre",
+                "quantity": 6,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Thon",
+                "quantity": 1,
+                "unit": "boîte(s)"
+              },
+              {
+                "name": "Oeuf",
+                "quantity": 4,
+                "unit": "pièce(s)"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Hot Dog",
+            "ingredients": [
+              {
+                "name": "Pain à Hot Dog",
+                "quantity": 4,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Saucisses",
+                "quantity": 4,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Gruyère",
+                "quantity": 1,
+                "unit": "sachet(s)"
+              },
+              {
+                "name": "Moutarde de Dijon",
+                "quantity": 2,
+                "unit": "cuillère(s) à soupe"
+              }
+            ],
             "season": ["winter","automn","spring"]
-        },
-        {
-            "title": "Gratin de butternut",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "150g",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"1 butternut",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":["Amandes"],
-            "ing_eggs": "1",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "1",
-            "weblink": "www.marmiton.org/recettes/recette_gratin-de-courge-butternut_34853.aspx",
-            "recipe": "",
-            "persons": "4",
+          },
+          {
+            "name": "Barbecue",
+            "ingredients": [
+              {
+                "name": "Brochettes",
+                "quantity": 6,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Saucisses Chippo/Merguez",
+                "quantity": 4,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Pommes de terre",
+                "quantity": 6,
+                "unit": "pièce(s)"
+              }
+            ],
+            "season": ["summer"]
+          },
+          {
+            "name": "Friands Saucisse",
+            "ingredients": [
+              {
+                "name": "Pâte Feuilletée rectangulaire",
+                "quantity": 1,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Saucisses Knacki",
+                "quantity": 4,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Gruyère",
+                "quantity": 1,
+                "unit": "sachet(s)"
+              },
+              {
+                "name": "Oeuf",
+                "quantity": 1,
+                "unit": "pièce(s)"
+              }
+            ],
             "season": ["winter","automn","spring"]
-        },
-        {
-            "title": "Poêlée Patates Carottes Haricots",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":["Pommes de terre", "Haricots Verts", "Carottes"],
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":"",
-            "ing_eggs":"",
-            "ing_grated_cheese":"",
-            "ing_fresh_cream":"",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
+          },
+          {
+            "name": "Croziflette",
+            "ingredients": [
+              {
+                "name": "Crozets",
+                "quantity": 300,
+                "unit": "g"
+              },
+              {
+                "name": "Jambon en dés",
+                "quantity": 1,
+                "unit": "paquet(s)"
+              },
+              {
+                "name": "Gruyère",
+                "quantity": 1,
+                "unit": "sachet(s)"
+              },
+              {
+                "name": "Oeuf",
+                "quantity": 1,
+                "unit": "pièce(s)"
+              }
+            ],
+            "season": ["winter","automn"]
+          },
+          {
+            "name": "Poêlée Patates Carottes Haricots",
+            "ingredients": [
+              {
+                "name": "Pommes de terre",
+                "quantity": 300,
+                "unit": "g"
+              },
+              {
+                "name": "Haricots verts",
+                "quantity": 300,
+                "unit": "g"
+              },
+              {
+                "name": "Carottes",
+                "quantity": 300,
+                "unit": "g"
+              },
+              {
+                "name": "Oeuf",
+                "quantity": 1,
+                "unit": "pièce(s)"
+              }
+            ],
             "season": ["winter","automn","spring"]
-        },
-        {
-            "title": "Raclette",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "",
-            "ing_others":["Charcuterie","Fromage à raclette"],
-            "ing_eggs": "1",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
+          },
+          {
+            "name": "Raclette",
+            "ingredients": [
+              {
+                "name": "Fromage à raclette",
+                "quantity": 300,
+                "unit": "g"
+              },
+              {
+                "name": "Assiette de charcuterie",
+                "quantity": 1,
+                "unit": "paquet(s)"
+              },
+              {
+                "name": "Pommes de terre",
+                "quantity": 6,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Oeuf",
+                "quantity": 4,
+                "unit": "pièce(s)"
+              }
+            ],
             "season": ["winter","automn"]
-        },
-        {
-            "title": "Escalopes panées / Pâtes",
-            "ing_beef_meat": "",
-            "ing_ham_meat": "",
-            "ing_bacon_meat": "",
-            "ing_chicken_meat": "250",
-            "ing_meat": "",
-            "ing_rice": "",
-            "ing_vegetables":"",
-            "ing_cheese":"",
-            "ing_fish":"",
-            "ing_frozen_food":"",
-            "ing_carbohydrates": "300",
-            "ing_others":["Chapelure","Farine"],
-            "ing_eggs": "1",
-            "ing_grated_cheese": "",
-            "ing_fresh_cream": "",
-            "weblink": "",
-            "recipe": "",
-            "persons": "4",
-            "season": ["winter","automn"]
-        }
+          },
+          {
+            "name": "Escalopes panées / Pâtes",
+            "ingredients": [
+              {
+                "name": "Poulet",
+                "quantity": 300,
+                "unit": "g"
+              },
+              {
+                "name": "Chapelure",
+                "quantity": 20,
+                "unit": "g"
+              },
+              {
+                "name": "Farine",
+                "quantity": 20,
+                "unit": "g"
+              },
+              {
+                "name": "Oeuf",
+                "quantity": 2,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Pâtes",
+                "quantity": 300,
+                "unit": "g"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
+          }
     ]
 }
