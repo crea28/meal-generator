@@ -73,7 +73,7 @@ if __name__ == "__main__":
     shopping_list, meals = generate_shopping_list(file_path, num_meals, fseason)
     print(f"Generated {len(meals)} random meals:")
     for meal in sorted(meals):
-        print("- " + meal)
+        print(meal)
     print("\nShopping List:")
     for item in sorted(shopping_list):
         print(f"{item}: {shopping_list[item]['quantity']} {shopping_list[item]['unit']}")
