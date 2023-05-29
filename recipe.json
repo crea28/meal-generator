@@ -259,7 +259,7 @@
                 {
                     "name": "Gruyère",
                     "quantity": 1,
-                    "unit": "pièce(s)"
+                    "unit": "sachet(s)"
                 },
                 {
                     "name": "Crème liquide",
@@ -594,8 +594,8 @@
               },
               {
                 "name": "Gruyère",
-                "quantity": 30,
-                "unit": "g"
+                "quantity": 1,
+                "unit": "sachet(s)"
               }
             ],
             "season": ["winter","automn","spring","summer"]
@@ -625,8 +625,8 @@
               },
               {
                 "name": "Gruyère",
-                "quantity": 30,
-                "unit": "g"
+                "quantity": 1,
+                "unit": "sachet(s)"
               }
             ],
             "season": ["winter","automn","spring","summer"]
@@ -683,8 +683,8 @@
               },
               {
                 "name": "Gruyère",
-                "quantity": 20,
-                "unit": "g"
+                "quantity": 1,
+                "unit": "sachet(s)"
               },
               {
                 "name": "Crème liquide",
