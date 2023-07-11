@@ -352,8 +352,8 @@
             "ingredients": [
               {
                 "name": "Pommes de terre",
-                "quantity": 6,
-                "unit": "pièce(s)"
+                "quantity": 400,
+                "unit": "g"
               }
             ],
             "season": ["winter","automn","spring","summer"]
@@ -493,7 +493,7 @@
             "name": "Saucisses Lentilles",
             "ingredients": [
               {
-                "name": "Saucisses",
+                "name": "Saucisses de Strasbourg",
                 "quantity": 3,
                 "unit": "pièce(s)"
               },
@@ -699,8 +699,8 @@
             "ingredients": [
               {
                 "name": "Pommes de terre",
-                "quantity": 6,
-                "unit": "pièce(s)"
+                "quantity": 400,
+                "unit": "g"
               },
               {
                 "name": "Thon",
@@ -756,8 +756,8 @@
               },
               {
                 "name": "Pommes de terre",
-                "quantity": 6,
-                "unit": "pièce(s)"
+                "quantity": 600,
+                "unit": "g"
               }
             ],
             "season": ["summer"]
@@ -855,8 +855,8 @@
               },
               {
                 "name": "Pommes de terre",
-                "quantity": 6,
-                "unit": "pièce(s)"
+                "quantity": 400,
+                "unit": "g"
               },
               {
                 "name": "Oeuf",
