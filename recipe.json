@@ -68,7 +68,7 @@
             "name": "Poêlée Jambon - Frites",
             "ingredients": [
                 {
-                    "name": "Jambon à pôeler",
+                    "name": "Jambon à poêler",
                     "quantity": 4,
                     "unit": "tranche(s)"
                 },
@@ -147,7 +147,7 @@
                     "unit": "paquet(s)"
                 },
                 {
-                    "name": "Leerdamer",
+                    "name": "Leerdammer",
                     "quantity": 1,
                     "unit": "paquet(s)"
                 },
