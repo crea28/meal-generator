@@ -896,6 +896,22 @@
               }
             ],
             "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Steak Haché / Pomme dauphine",
+            "ingredients": [
+              {
+                "name": "Steak haché",
+                "quantity": 3,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Pommes dauphines",
+                "quantity": 50,
+                "unit": "g"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
           }
     ]
 }
