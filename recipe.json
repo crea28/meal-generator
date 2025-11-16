@@ -797,9 +797,9 @@
                 "unit": "g"
               },
               {
-                "name": "Jambon en dés",
-                "quantity": 1,
-                "unit": "paquet(s)"
+                "name": "Dés de jambon",
+                "quantity": 150,
+                "unit": "g"
               },
               {
                 "name": "Gruyère",
