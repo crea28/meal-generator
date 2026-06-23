@@ -912,6 +912,32 @@
               }
             ],
             "season": ["winter","automn","spring","summer"]
+          },
+          {
+            "name": "Galette de blé noir",
+            "ingredients": [
+              {
+                "name": "Galettes de blé",
+                "quantity": 4,
+                "unit": "pièce(s)"
+              },
+              {
+                "name": "Gruyère",
+                "quantity": 1,
+                "unit": "sachet(s)"
+              },
+              {
+                "name": "Oeufs",
+                "quantity": 4,
+                "unit": "pièces"
+              },
+              {
+                "name": "Jambon",
+                "quantity": 4,
+                "unit": "tranche(s)"
+              }
+            ],
+            "season": ["winter","automn","spring","summer"]
           }
     ]
 }
